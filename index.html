@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./images/favicon-32x32.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="menu">
+          <div id="logo"></div>
+          <nav id="dropdown" class="dropdown">
+            <li id="dp-features">
+              Features
+              <img src="./images/icon-arrow-down.svg"/>
+            </li>
+            <li id="dp-company">
+              Company
+              <img src="./images/icon-arrow-down.svg"/>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </nav>
+        </div>
+        <div class="login">
+          <li>Login</li>
+          <li>Register</li>
+        </div>
+        <div id="features" class="features hidden">
+          <div class="features-menu todo">
+            <img src="./images/icon-todo.svg"/>
+            <li>Todo List</li>
+          </div>
+          <div class="features-menu calendar">
+            <img src="./images/icon-calendar.svg"/>
+            <li>Calendar</li>
+          </div>
+          <div class="features-menu reminders">
+            <img src="./images/icon-reminders.svg"/>
+            <li>Reminders</li>
+          </div>
+          <div class="features-menu planning">
+            <img src="./images/icon-planning.svg"/>
+            <li>Planning</li>
+          </div>
+        </div>
+        <div id="company" class="company hidden">
+          <div class="company-menu">
+            <li>History</li>
+          </div>
+          <div class="company-menu">
+            <li>Our Team</li>
+          </div>
+          <div class="company-menu">
+            <li>Blog</li>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="title">
+          <h1>
+            Make<br/>
+            remote work
+          </h1>
+        </div>
+        <div class="info">
+          <p>
+            Get your team in sync, no matter your location. <br/>
+            Streamline processes, create team rituals, and <br/>
+            watch productivity soar.
+          </p>
+        </div>
+        <div class="btn">
+          <button>Learn more</button>
+        </div>
+      </main>
+
+      <aside></aside>
+
+      <footer>
+        <li><img src="./images/client-databiz.svg"/></li>
+        <li><img src="./images/client-audiophile.svg"/></li>
+        <li><img src="./images/client-meet.svg"/></li>
+        <li><img src="./images/client-maker.svg"/></li>
+      </footer>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/ragibneaz/">Ragib Neaz</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
